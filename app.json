@@ -17,13 +17,22 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "config": {
+        "googleMapsApiKey": "AIzaSyCdVpLGWsO8ElUDwjjKRJtsqs01QynqPXs"
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCdVpLGWsO8ElUDwjjKRJtsqs01QynqPXs"
+        }
+      },
+      "package": "com.alexjou.myplans"
     },
     "web": {
       "favicon": "./assets/favicon.png"
