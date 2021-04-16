@@ -6,7 +6,7 @@
   <img
     alt="Mobile"
     src="/assets/images/myplans.gif"
-    height=400
+    height=700
     width=400
   />
 </h1>
